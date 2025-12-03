@@ -1,8 +1,30 @@
+pub mod day01;
+pub mod day02;
+pub mod day03;
 pub mod day04;
+pub mod day05;
+pub mod day06;
+pub mod day07;
+pub mod day08;
+pub mod day09;
+pub mod day10;
+pub mod day11;
+pub mod day12;
 
 pub fn solve(day: u32) {
     match day {
+        1 => day01::solve(),
+        2 => day02::solve(),
+        3 => day03::solve(),
         4 => day04::solve(),
+        5 => day05::solve(),
+        6 => day06::solve(),
+        7 => day07::solve(),
+        8 => day08::solve(),
+        9 => day09::solve(),
+        10 => day10::solve(),
+        11 => day11::solve(),
+        12 => day12::solve(),
         _ => println!("Day not implemented"),
     }
 }
